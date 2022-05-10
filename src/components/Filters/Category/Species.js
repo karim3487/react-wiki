@@ -25,7 +25,7 @@ const Species = ({setPageNumber, setSpecies}) => {
       </h2>
       <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo"
            data-bs-parent="#accordionExample">
-        <div className="accordion-body d-grid gap-2">
+        <div className="accordion-body d-flex flex-wrap gap-3">
           {species.map((items, index) => (
             <FilterBTN
               task={setSpecies}

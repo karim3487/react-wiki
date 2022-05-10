@@ -13,7 +13,7 @@ const Status = ({setPageNumber, setStatus}) => {
       </h2>
       <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree"
            data-bs-parent="#accordionExample">
-        <div className="accordion-body d-grid gap-2">
+        <div className="accordion-body d-flex flex-wrap gap-3">
           {status.map((items, index) => (
             <FilterBTN
               task={setStatus}

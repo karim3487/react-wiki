@@ -20,7 +20,7 @@ const Gender = ({setGender, setPageNumber}) => {
       </h2>
       <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne"
            data-bs-parent="#accordionExample">
-        <div className="accordion-body d-grid gap-2">
+        <div className="accordion-body d-flex flex-wrap gap-3">
           {gender.map((items, index) => (
             <FilterBTN
               task={setGender}

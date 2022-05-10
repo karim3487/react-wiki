@@ -47,7 +47,6 @@ const Home = () => {
     (async function () {
       let data = await fetch(api).then((res) => res.json())
       updateFetchedData(data)
-      console.log(data)
     })();
   }, [api]);
 
@@ -58,7 +57,7 @@ const Home = () => {
       <div className="container">
         <div className="row">
           <Filters setSpecies={setSpecies} setGender={setGender} setStatus={setStatus} setPageNumber={setPageNumber}/>
-          <div className="col-9">
+          <div className="col-lg-9 col-12">
             <div className="row">
               <Cards page="/" results={results}/>
             </div>
