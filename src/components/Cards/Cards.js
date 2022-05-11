@@ -20,7 +20,7 @@ const Cards = ({results, page}) => {
             <div style={{padding: "10px"}} className="content">
               <div className="fs-4 fw-bold mb-4">{name}</div>
               <div className="">
-                <div className="fs-6">Last location</div>
+                <div className="fs-6">Последняя локация</div>
                 <div className="fs-5">{location.name}</div>
               </div>
             </div>
